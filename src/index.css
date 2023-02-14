@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-home {
+  background-image: url("./assets/bg-food.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 90% center;
+}
+
+.min-h-100vh {
+  min-height: calc(100 * var(--vh));
+}
+
+.title {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
+}
